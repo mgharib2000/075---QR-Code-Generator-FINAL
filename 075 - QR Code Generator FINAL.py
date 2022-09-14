@@ -21,7 +21,7 @@ def genCode():
     if len(inputString):
         qrCode = pyqrcode.create(inputString)
 
-        savePath = "C:\\Users\\Mohamed\\Documents\\Python Scripts\\" + inputString + "_" + str(scale)
+        savePath = "C:\\Users\\Admin\\" + inputString + "_" + str(scale)
         
         qrCode.png(savePath + ".png", scale = scale)
         qrCode.svg(savePath + ".svg", scale = scale)
